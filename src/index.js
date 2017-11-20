@@ -39,8 +39,10 @@ class FetchData extends React.Component {
 
     return (
       <div className='gallery_box'>
+      <div className='searchField'>
       <input type='text' id='search'
       value={this.search} onChange={ this.handleChange.bind(this)} placeholder='Type subreddit'/>
+      </div>
         <h1>Gallery {this.state.search}</h1>
         <ul>
           {this.state.posts.map(post =>

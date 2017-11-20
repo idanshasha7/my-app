@@ -23,3 +23,15 @@
      text-decoration:none;
      cursor:pointer;
 }
+.gallery_box .searchField{
+  left: 0;
+  right:0 ;
+  margin:0 auto;
+  width: 250px;
+}
+
+.gallery_box .searchField input{
+  height: 40px;
+  padding: 5px;
+  width: 250px;
+}
