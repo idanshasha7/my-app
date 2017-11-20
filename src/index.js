@@ -31,8 +31,6 @@ class FetchData extends React.Component {
   }
 
   handleChange(e) {
-    // const search = e.target.value;
-    
     this.state.search = e.target.value;
     this.componentDidMount();
   }
